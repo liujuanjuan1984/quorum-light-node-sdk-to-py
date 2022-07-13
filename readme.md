@@ -5,8 +5,7 @@
 (require **Python** and **Nodejs**)
 
 ```
-cd quorum-light-node-sdk-to-py
-pip3 install -r requirements.txt                                                
+cd quorum-light-node-sdk-to-py                                       
 npm install
 ```
 
