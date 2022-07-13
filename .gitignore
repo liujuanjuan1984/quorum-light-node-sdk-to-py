@@ -1,0 +1,4 @@
+node_modules
+local_storage_data
+.env
+__pycache__
