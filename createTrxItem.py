@@ -31,7 +31,8 @@ for content in contents:
     output = nodejs.read()
     nodejs.close()
 
-    if item := get_trxitem(output):
+    item = get_trxitem(output)
+    if item:
         item = {"TrxItem": item}
         print(item)
     else:
